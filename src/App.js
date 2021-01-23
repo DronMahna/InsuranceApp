@@ -3,6 +3,7 @@ import "./App.css";
 import Life from "./images/life.jpg";
 import Health from "./images/health.jpg";
 
+const updated = null 
 function App() {
   window.addEventListener("scroll", function () {
     const header = document.querySelector("header");
