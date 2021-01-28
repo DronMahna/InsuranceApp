@@ -3,7 +3,6 @@ import "./App.css";
 import Life from "./images/life.jpg";
 import Health from "./images/health.jpg";
 
-const updated = null 
 function App() {
   window.addEventListener("scroll", function () {
     const header = document.querySelector("header");
@@ -68,7 +67,7 @@ function App() {
           <div className="col50">
             <div className="imgBx">
               {" "}
-              <img src={Life} />
+              <img alt="img" src={Life} />
             </div>
           </div>
         </div>
@@ -88,7 +87,7 @@ function App() {
         <div className="content">
           <div className="box">
             <div className="imgBx">
-              <img src={Health} />
+              <img alt="img" src={Health} />
             </div>
             <div className="text">
               <h3>special health</h3>
@@ -96,7 +95,7 @@ function App() {
           </div>
           <div className="box">
             <div className="imgBx">
-              <img src={Health} />
+              <img alt="img" src={Health} />
             </div>
             <div className="text">
               <h3>special health</h3>
@@ -104,7 +103,7 @@ function App() {
           </div>
           <div className="box">
             <div className="imgBx">
-              <img src={Health} />
+              <img alt="img" src={Health} />
             </div>
             <div className="text">
               <h3>special health</h3>
@@ -112,7 +111,7 @@ function App() {
           </div>
           <div className="box">
             <div className="imgBx">
-              <img src={Health} />
+              <img alt="img" src={Health} />
             </div>
             <div className="text">
               <h3>special health</h3>
@@ -120,7 +119,7 @@ function App() {
           </div>
           <div className="box">
             <div className="imgBx">
-              <img src={Health} />
+              <img alt="img" src={Health} />
             </div>
             <div className="text">
               <h3>special health</h3>
@@ -128,7 +127,7 @@ function App() {
           </div>
           <div className="box">
             <div className="imgBx">
-              <img src={Health} />
+              <img alt="img" src={Health} />
             </div>
             <div className="text">
               <h3>special health</h3>
